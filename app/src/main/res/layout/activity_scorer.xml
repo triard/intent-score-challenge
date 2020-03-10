@@ -15,7 +15,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginTop="40dp"
         android:inputType="textPersonName"
-        android:text="Scorer Name"
+        android:hint="Scorer Name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -27,9 +27,10 @@
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:text="Button"
+        android:text="Submit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        android:onClick="handlePlayerName"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
